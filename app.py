@@ -45,7 +45,7 @@ df_filtrado = df[
 #& é usado para combinar múltiplas condições de filtragem
 
 #conteúdo principal do dash
-st.title('💰 Dashboard de Aanálise de Salários na Área de Dados')
+st.title('💰 Dashboard de Análise de Salários na Área de Dados')
 st.markdown('Explore os dados salariais na área de dados nos últimos anos. ' \
 'Ultilize os filtros interativos para refinar sua análise.')
 
@@ -143,4 +143,5 @@ with col_graf4:
 
 # --- Tabela de Dados Detalhados ---
 st.subheader("📋Dados detalhados")
+
 st.dataframe(df_filtrado)
